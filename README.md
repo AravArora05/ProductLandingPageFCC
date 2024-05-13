@@ -13,8 +13,8 @@ Features:
 CSS Styling:
 
 - Employs team colors for a stylish presentation and visually distinct sections.
-- Uses CSS flexbox for layout and responsive features
-  - Example: We used flexbox to layout the section with the videe and the pricing. We distinguished between alumni/non-alumni prices and we also included a video for viewers to watch
+- Uses CSS grid for layout and responsive features
+  - Example: I used grid to layout the section with the videe and the pricing!
   - 
 - Employs the use anchor links for simple navigation
 - With the use of a fixed header, it allows the user to be able to toggle between different sections!
