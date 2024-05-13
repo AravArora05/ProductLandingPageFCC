@@ -12,12 +12,13 @@ Features:
 
 CSS Styling:
 
-- Employs team colors for a stylish presentation and visually distinct sections.
-- Uses CSS grid for layout and responsive features
-  - Example: I used grid to layout the section with the videe and the pricing!
-  - 
-- Employs the use anchor links for simple navigation
-- With the use of a fixed header, it allows the user to be able to toggle between different sections!
+- Utilizes team colors for a stylish and visually appealing presentation, with distinct sections that stand out.
+- Implements CSS Grid for layout and responsive features, ensuring a seamless user experience across devices.
+  - For example, the section with the video and the pricing information is expertly laid out using CSS Grid.
+- Incorporates anchor links for intuitive navigation, allowing users to easily jump to different sections.
+-  The fixed header enhances usability by enabling users to toggle between sections without losing their place on the page.
+
+
 
 Remarks: This project was a bit of a struggle at first. FCC doesn't go deep into this topic, so I kind of struggled in what I needed to do in order to design a product landing page
 wtih a grid layout model! I tried over and over again, but I wasn't sure how to perfectly place the elements in the right place. My error came in my understanding of the topic. For example, I mis-used teh syntax
