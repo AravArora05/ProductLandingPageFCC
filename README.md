@@ -12,11 +12,11 @@ Features:
 
 CSS Styling:
 
-Employs team colors for a stylish presentation and visually distinct sections.
-Uses CSS for layout and responsive features
-Includes anchor links for easy navigation to specific page sections,
-Features links to external profiles and more detailed information about players and coaches.
-Utilizes a fixed header that remains visible at the top of the viewport as the user scrolls up and down the page.
+- Employs team colors for a stylish presentation and visually distinct sections.
+- Uses CSS for layout and responsive features
+- Includes anchor links for easy navigation to specific page sections,
+- Features links to external profiles and more detailed information about players and coaches.
+- Utilizes a fixed header that remains visible at the top of the viewport as the user scrolls up and down the page.
 
 Remarks: This project was a bit of a struggle at first. FCC doesn't go deep into this topic, so I kind of struggled in what I needed to do in order to design a product landing page
 wtih a grid layout model! I tried over and over again, but I wasn't sure how to perfectly place the elements in the right place. My error came in my understanding of the topic. For example, I mis-used teh syntax
