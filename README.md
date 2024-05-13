@@ -18,7 +18,8 @@ CSS Styling:
 - Incorporates anchor links for intuitive navigation, allowing users to easily jump to different sections.
 -  The fixed header enhances usability by enabling users to toggle between sections without losing their place on the page.
 -Responsive Web Design
-- Mobile UI Video  - https://youtube.com/shorts/gpCfttFILmE?feature=share(focused on responsive web design as well in this project)
+- Mobile UI Video  - https://youtube.com/shorts/gpCfttFILmE?feature=share
+- (focused on responsive web design as well in this project)
 
 
 
