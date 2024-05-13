@@ -16,16 +16,16 @@
     <h1>BC Basketball Season Tickets</h1>
     <nav id="nav-bar">
       <ul>
-        <li><a class="nav-link" href="#">Get Early Access</a></li>
-        <li><a class="nav-link" href="#">Video</a></li>
-        <li><a class="nav-link" href="#">Special Perks</a></li>
+        <li><a class="nav-link" href="#form">Get Early Access</a></li>
+        <li><a class="nav-link" href="#video">Video</a></li>
+        <li><a class="nav-link" href="#special-perks">Special Perks</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
 
-    <div class="special-perks">
+    <div class="special-perks" id="special-perks">
       <img src="https://upload.wikimedia.org/wikipedia/en/9/96/Boston_College_Eagles_logo.svg" alt="GT Logo">
       <h2>Priority Seating for Marquee Matchups vs UNC, GT, Duke and More!</h2>
       <img src="https://cdn.pixabay.com/photo/2014/04/03/09/59/basketball-309539_640.png" alt="Basketball Icon">
@@ -34,7 +34,7 @@
       <h2>20% off Shake Shack on Weekday Home Games</h2>
     </div>
 
-    <div class="video">
+    <div class="video" id="video">
       <h2 id="price">Pricing!</h2>
       <h2 id="alums">$150</h2>
       <h2 id="alumni">Alumni</h2>
@@ -42,9 +42,9 @@
       <h2 id="non-alums">$250!</h2>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/2lWCbMxYR7I?si=v_nYVcZyS3ReTItA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
-  <div class = "form">
+  <div class = "form" id="form">
     
-    <form id="form" method="post" action="https://ramblinwreck.evenue.net/cgi-bin/ncommerce3/SEGetGroupList?groupCode=MB&linkID=gatech&shopperContext=&caller=&appCode=&gad_source=1&gclid=CjwKCAjwrvyxBhAbEiwAEg_KguVuggIb7_X2b-dsAYgUcmI9v3U2c1B3ir0SAOPRGji9rM15s3BxQRoC0gAQAvD_BwE">
+    <form method="post" action="https://ramblinwreck.evenue.net/cgi-bin/ncommerce3/SEGetGroupList?groupCode=MB&linkID=gatech&shopperContext=&caller=&appCode=&gad_source=1&gclid=CjwKCAjwrvyxBhAbEiwAEg_KguVuggIb7_X2b-dsAYgUcmI9v3U2c1B3ir0SAOPRGji9rM15s3BxQRoC0gAQAvD_BwE">
     <h2 class ="first">
       Are you ready to join the Eagles Family!
     </h2>
@@ -60,9 +60,7 @@
         <label id="text-label">Are you a BC Alum/Current Student?</label>
         <label for="trueLabel">Yes</label>
         <input type="radio" id="trueLabel" name="alumni" value="true">
-        <hr></hr>
-  
-        
+        <hr id="test"></hr>
         <label for="falseLabel">No</label>
         <input type="radio" id="falseLabel" name="alumni" value="false">
         <hr></hr>
