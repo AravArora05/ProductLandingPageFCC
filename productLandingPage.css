@@ -1,0 +1,429 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Georgia Tech', sans-serif !important;
+}
+
+:root {
+  --bc-yellow: hsl(45, 50%, 50%);
+  --bc-red: #DC143C;
+  --bc-light-red: #FFA07A;
+}
+
+html {
+  background-color: var(--bc-light-red);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--bc-red);
+  height: 60px;
+  padding: 0 20px;
+  border: 3px solid black;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  color: white;
+}
+
+h1 {
+  font-family: 'Georgia Tech', sans-serif;
+  font-size: 24px;
+  margin-right: auto; /* Align the h1 to the left */
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin-right: 10px;
+  
+}
+nav li a {
+  color: white;
+  font-style: bold;
+  background-color: hsl(45, 50%, 50%);
+  border-radius: 5px;
+  padding: 10px 10px 10px 10px;
+}
+nav li a:hover {
+  color: hsl(45, 50%, 50%); background-color: white;
+}
+
+.video {
+  width: 80%;
+  height: 360px;
+  max-height: 330px;
+  margin: 0 auto;
+  background-color: var(--bc-red);
+  overflow: scroll;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 115px 115px 115px;
+  grid-template-areas: 
+    "a a b b b"
+    "c d b b b"
+    "e f b b b";
+  justify-items: center;
+  border-radius: 30px;
+  margin-bottom: 40px;
+}
+
+.video iframe {
+  grid-area: b;
+  width: 80%;
+  height: 80%;
+  justify-self: center;
+  align-self: center;
+}
+
+.video #price {
+  grid-area: a;
+  border: 1px solid black;
+  align-self: end;
+  font-size: 40px;
+  background-color: var(--bc-yellow);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.video #alumni {
+  grid-area: e;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+  align-self: start;
+  background: linear-gradient(to bottom, var(--bc-yellow), var(--bc-red) 80%);
+  color: white;
+}
+
+.video #non {
+  grid-area: f;
+  background-color: var(--bc-red);
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+  align-self: start;
+  color: white; /* Changed to white */
+}
+
+.video #alums {
+  grid-area: c;
+  background: linear-gradient(to bottom, var(--bc-yellow), var(--bc-red) 80%);
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+  color: white;
+  align-self: start;
+}
+
+
+.video #non-alums {
+  grid-area: d;
+  background-color: var(--bc-red);
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+  align-self: start;
+  color: white; /* Changed to white */
+}
+
+.video #non, .video #non-alums {
+  background-color: gray;
+}
+
+.special-perks {
+  max-width: 80%;
+  height: 370px;
+  max-height: 370px;
+  margin: 0 auto;
+  margin-top: 70px;
+  background-color: var(--bc-red);
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: auto auto auto;
+  align-items: center;
+  justify-items: start;
+  overflow: scroll;
+  border-radius: 30px;
+  row-gap: 5px;
+  text-align: left;
+  margin-bottom: 40px;
+  padding: 10px;
+}
+
+.special-perks img {
+  aspect-ratio: 1/1;
+  max-width: 50%;
+  min-width: 60%;
+  justify-self: center;
+}
+
+.special-perks h2 {
+  justify-self: self;
+  font-size: max(40px, 0.9vw);
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+.form {
+  width: 40%;
+  height: 275px;
+  background-color: var(--bc-red);
+  margin: 0px auto;
+  border-radius: 20px;
+  margin-bottom: 40px;
+  padding-top: 1px;
+}
+
+#form {
+  position: relative;
+}
+
+.form .first {
+  
+  font-size: 25px;
+  background: linear-gradient(to bottom, var(--bc-yellow), var(--bc-red) 80%);
+  border-radius: 5px;
+  min-width: 100%;
+  padding: 5px;
+  color: white;
+  text-align: center;
+  border-bottom: 2px black solid;
+}
+
+.name label, .name input {
+  display: inline-block;
+}
+.name label {
+  width: 10%;
+  min-width: 100px;
+  text-align: right;
+
+}
+
+.email label, .email input {
+  display: inline-block;
+}
+email,label {
+  margin-top: 10px;
+}
+.email input {
+  width: 40%;
+  text-align: left;
+}
+
+.email label {
+  width: 10%;
+  min-width: 100px;
+  text-align: right;
+}
+.question {
+  text-align: left;
+}
+
+.question input[type="radio"] {
+  display: inline-block;
+  
+}
+.question label {
+
+  display: inline-block;
+  margin: 0 auto;
+  font-size: 20px;
+  padding-left: 10px;
+  text-align: right;
+  width: 30%;
+}
+
+
+.question label:first-of-type {
+  display: block;
+  margin-top: 5px;
+  border: 2px solid black;
+  text-align: center;
+  padding-left: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 100%;
+}
+
+
+/**
+.form div {
+  padding: 5px;
+  font-size: 20px;
+  border: 2px solid black;
+}
+
+.form .submit {
+  border: 2px black solid;
+} 
+
+.form div input {
+  width: 50%;
+  text-align: right;
+  margin-left: 10px;
+  height: 10%;
+  font-size: 15px;
+}
+
+.form div::before {
+  content: "(Required)"; 
+  font-style: italic;
+  font-size: 12px;
+}
+.form .question label {
+  display: block;
+  border: 2px solid black;
+  padding: 2px;
+}
+
+.form .question label input {
+  display: inline;
+}
+
+*/
+
+/** input */
+.form .submit input {
+  display: block;
+  margin: auto auto;
+  font-size: 36px;
+  border-radius: 12px;
+  padding: 10px 20px;
+  background: linear-gradient(to bottom, var(--bc-yellow), var(--bc-red) 80%);
+  color: white;
+  border: 2px solid black;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  margin-top: 10px;
+}
+
+.form .submit input:hover {
+  background: linear-gradient(to bottom, var(--bc-red), var(--bc-yellow) 80%);
+  color: black;
+}
+
+#header-img {
+  max-width: 90%;
+  max-height: 90%;
+  width: 90%;
+  height: 90%;
+  aspect-ratio: 1/1;
+  animation: basketball 10s ease linear;
+  transform: rotate(0deg);
+}
+
+@media only screen and (max-width: 800px) {
+  header {
+    height: 50px;
+    padding: 0 10px;
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  nav li a {
+    padding: 8px;
+    font-size: 12px;
+    border: 2px solid black;
+    background-color: none;
+    
+  }
+.video {
+  width: 80%;
+  height: auto; /* Adjust height to auto */
+  max-height: 300px; /* Set maximum height */
+  margin: 0 auto; /* Center horizontally */
+  background-color: var(--bc-red);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Adjust number of columns */
+  grid-template-rows: repeat(4, auto); /* Adjust number of rows */
+  grid-template-areas: 
+    "a a a a"
+    "c c d d"
+    "e e f f"
+    "b b b b";
+  justify-items: center;
+  border-radius: 30px;
+  overflow: scroll; 
+  margin-bottom: 40px;
+}
+
+.video iframe {
+  width: 90%;
+  height: auto;
+  max-height: 90%;
+}
+
+.video #price {
+  font-size: 30px;
+}
+
+  .special-perks {
+    height: 300px;
+    grid-template-rows: auto auto;
+  }
+
+  .special-perks img {
+    max-width: 70%;
+    min-width: 80%;
+  }
+
+  .special-perks h2 {
+    font-size: 30px;
+  }
+
+  .form {
+    width: 80%;
+    height: 250px;
+  }
+
+  .form .first {
+    font-size: 20px;
+    padding: 3px;
+  }
+
+  .name label, .email label {
+    width: 20%;
+    min-width: 20%;
+    font-size: 14px;
+  }
+
+  .name input, .email input {
+    width: 60%;
+    font-size: 14px;
+  }
+
+  .question label {
+    font-size: 16px;
+    width: 20%;
+    text-align: right;
+  }
+
+  .question label:first-of-type {
+    font-size: 18px;
+    padding: 3px;
+  }
+
+  .form .submit input {
+    font-size: 24px;
+    padding: 8px 16px;
+    margin-top: 5px;
+  }
+}
+
