@@ -32,7 +32,7 @@ header {
 h1 {
   font-family: 'Georgia Tech', sans-serif;
   font-size: 24px;
-  margin-right: auto; /* Align the h1 to the left */
+  margin-right: auto;
 }
 
 nav ul {
@@ -111,7 +111,7 @@ nav li a:hover {
   border-radius: 10px;
   border: 1px solid black;
   align-self: start;
-  color: white; /* Changed to white */
+  color: white; 
 }
 
 .video #alums {
@@ -132,7 +132,7 @@ nav li a:hover {
   border-radius: 10px;
   border: 1px solid black;
   align-self: start;
-  color: white; /* Changed to white */
+  color: white; 
 }
 
 .video #non, .video #non-alums {
@@ -341,18 +341,19 @@ email,label {
     padding: 8px;
     font-size: 12px;
     border: 2px solid black;
-    background-color: none;
+    display: block;
+    height: 100%;
     
   }
 .video {
   width: 80%;
-  height: auto; /* Adjust height to auto */
-  max-height: 300px; /* Set maximum height */
-  margin: 0 auto; /* Center horizontally */
+  height: auto; 
+  max-height: 300px;
+  margin: 0 auto; 
   background-color: var(--bc-red);
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Adjust number of columns */
-  grid-template-rows: repeat(4, auto); /* Adjust number of rows */
+  grid-template-columns: repeat(4, 1fr); 
+  grid-template-rows: repeat(4, auto); 
   grid-template-areas: 
     "a a a a"
     "c c d d"
@@ -374,10 +375,10 @@ email,label {
   font-size: 30px;
 }
 
-  .special-perks {
+.special-perks {
     height: 300px;
     grid-template-rows: auto auto;
-  }
+}
 
   .special-perks img {
     max-width: 70%;
@@ -388,9 +389,12 @@ email,label {
     font-size: 30px;
   }
 
-  .form {
+  .form, .video {
     width: 80%;
     height: 250px;
+  }
+  .form {
+    height: 220px;
   }
 
   .form .first {
