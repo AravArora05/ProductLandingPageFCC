@@ -3,7 +3,6 @@ Learning more in-depth HTML/CSS through FreeCodeCamp(Project #4)
 
 UI Video - [https://youtu.be/eo5d8rsIK6Q
 ](https://youtu.be/INDLTgDraUQ)
-Mobile UI Video
 
 Project: Build A Product Landing Page! 
 Description: Part of FreeCodeCamp's Responsive Web Design Certification curriculum, this project involves creating a Product Landing Page using the grid layout model. The grid layout model is a CSS
@@ -18,6 +17,8 @@ CSS Styling:
   - For example, the section with the video and the pricing information is expertly laid out using CSS Grid.
 - Incorporates anchor links for intuitive navigation, allowing users to easily jump to different sections.
 -  The fixed header enhances usability by enabling users to toggle between sections without losing their place on the page.
+-Responsive Web Design
+- Mobile UI Video  - https://youtube.com/shorts/gpCfttFILmE?feature=share(focused on responsive web design as well in this project)
 
 
 
