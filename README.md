@@ -2,7 +2,8 @@ Learning more in-depth HTML/CSS through FreeCodeCamp(Project #4)
 **This project was built for me to deploy my understanding of the grid layout model! It was interesting to learn a new, engaging topic!
 
 UI Video - [https://youtu.be/eo5d8rsIK6Q
-](https://youtu.be/INDLTgDraUQ)
+](https://youtu.be/INDLTgDraUQ) changed in the FCC Version!
+Code is slightly
 
 Project: Build A Product Landing Page! 
 Description: Part of FreeCodeCamp's Responsive Web Design Certification curriculum, this project involves creating a Product Landing Page using the grid layout model. The grid layout model is a CSS
